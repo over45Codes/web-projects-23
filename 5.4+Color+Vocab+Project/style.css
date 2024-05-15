@@ -1,14 +1,6 @@
-
-
 /* * {
     background-color: red;
 } */
-* img {
-    font-size: normal;
-    height: 200px;
-    width: 200px;
-}
-
 #red {
     color:red;
 }
@@ -27,4 +19,13 @@
 
 #yellow {
     color:yellow;
+}
+
+.color-title {
+    font-weight: normal;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }
