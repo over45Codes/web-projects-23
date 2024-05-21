@@ -2,10 +2,11 @@
   background-color: black;  
 }
 
-div {
+.flyer {
     width: 50%;
     margin-left: 25%;
-    margin-top: 25%;
+    margin-top: 10%;
+   
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
   color: white;
   text-align: center;
   text-transform: uppercase;
+  font-size: 3rem;
 }
 
 p {
@@ -20,7 +22,7 @@ p {
   text-align: center;
 }
 
-img {
+.myimage {
     border: 5px solid white;
     width:100%;
 }
