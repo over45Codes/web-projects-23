@@ -1,0 +1,25 @@
+* {
+  background-color: black;  
+}
+
+div {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1 {
+  font-family: "Regular Libre Baskerville ";
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+img {
+    border: solid white;
+    width:100%;
+}
+
