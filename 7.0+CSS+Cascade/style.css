@@ -1,4 +1,9 @@
 /* Don't change the existing CSS. */
+
+div {
+  width: auto;
+}
+
 #outer-box {
   border: 10px solid purple;
 }
@@ -16,5 +21,10 @@ p {
 
 .inner-box {
         background-color: red;
+
+}
+
+.white-text {
+      color:white;
 
 }
