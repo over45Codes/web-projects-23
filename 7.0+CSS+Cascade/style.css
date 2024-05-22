@@ -13,3 +13,8 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.inner-box {
+        background-color: red;
+
+}
