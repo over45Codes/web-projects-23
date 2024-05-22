@@ -1,8 +1,11 @@
 /* Don't change the existing CSS. */
-
+#outer-box {
+  border: 10px solid purple;
+}
 .box {
   background-color: blue;
   padding: 10px;
+ 
 }
 
 p {
