@@ -2,3 +2,7 @@
 h1,h2 {
     color:blueviolet;
 }
+
+.box > p.done  {
+color:firebrick
+}
