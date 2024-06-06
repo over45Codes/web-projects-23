@@ -4,5 +4,9 @@ h1,h2 {
 }
 
 .box > p.done  {
-color:firebrick
+color:firebrick;
+}
+
+.box li  {
+ color:blue;
 }
