@@ -2,11 +2,23 @@
 h1,h2 {
     color:blueviolet;
 }
-
+/* child selector  */
 .box > p.done  {
 color:firebrick;
 }
 
+/* descendant = apply to a descendent of left side   */
 .box li  {
  color:blue;
 }
+/* chaining selector = apply where ALL selectors are true */
+
+.box li.done{
+    color: seagreen;
+}
+
+/* . = Classes  */
+/* # = id */
+/* h1 = element */
+
+
