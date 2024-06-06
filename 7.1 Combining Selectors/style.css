@@ -1,4 +1,10 @@
 /* Write your code here: */
+
+/* . = Classes  */
+/* # = id */
+/* h1 = element */
+
+
 h1,h2 {
     color:blueviolet;
 }
@@ -17,8 +23,16 @@ color:firebrick;
     color: seagreen;
 }
 
-/* . = Classes  */
-/* # = id */
-/* h1 = element */
+
+/* combining combiners */
+
+ul p.done{
+    font-size: 0.5rem;
+}
+
+
+
+
+
 
 
