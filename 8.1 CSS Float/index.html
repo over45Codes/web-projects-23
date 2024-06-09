@@ -11,26 +11,40 @@
   <title>CSS Float</title>
   <style>
     div {
-      display: inline-block;
+      display: block;
       width: 40%;
-    }
+      outline: 2px solid red;
+      float: left;
+      }
 
     p {
       font-size: 2em;
-    }
+      }
 
+    img {
+      float: left;
+    }
+    
     .cat {
       background-color: aquamarine;
-    }
+      outline: 2px solid black;
+      /* display: inline-block;
+      width: 200px; */
+      float: left;
+      }
 
     .dog {
       background-color: coral;
-    }
+      /* display: inline-block; */
+      float: right;
+      outline: 2px solid yellow;
+      }
 
     footer {
       text-align: center;
+      clear:left;
       background-color: blueviolet;
-    }
+      }
   </style>
 </head>
 
