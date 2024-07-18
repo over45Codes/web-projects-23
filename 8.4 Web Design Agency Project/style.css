@@ -25,15 +25,4 @@ footer {
   outline: 2px solid green;
 }
 
-img {
 
-  height: 50%;
-  width: 50%;
-  float: left;
-  margin-right: 20px;
-  
-}
-
-.card-text{
-  border: solid blue;
-}
