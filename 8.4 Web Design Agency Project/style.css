@@ -25,4 +25,25 @@ footer {
   outline: 2px solid green;
 }
 
+/* This applies to both elements because they both have the card class */
+.card {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* This applies only to the element with both the left and card classes */
+.left.card {
+  background-color: lightblue;
+  height: 25%;
+  width: 25%;
+  float: left;
+}
+
+/* This applies only to the element with both the right and card classes */
+.right.card {
+  background-color: yellow;
+  height: 25%;
+  width:25%;
+  float: right;
+}
 
