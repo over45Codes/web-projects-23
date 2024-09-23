@@ -1,3 +1,11 @@
+@media (max-width: 680px) {
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
@@ -6,14 +14,19 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-.main {
+ .main {
   flex: 1;
-  outline: 2px solid red;
+}
+
+.title-image {
+  height:200px;
+  float: left;
+  margin-right: 50px;
 }
 
 h1 {
   font-size: 5rem;
-  outline: 2px solid black;
+  
 }
 .blueText {
   color: midnightblue;
@@ -22,28 +35,45 @@ h1 {
 footer {
   text-align: right;
   color: midnightblue;
-  outline: 2px solid green;
+  
 }
-
-/* This applies to both elements because they both have the card class */
 .card {
-  overflow: hidden;
-  margin-bottom: 20px;
+  width: 45%;
 }
 
-/* This applies only to the element with both the left and card classes */
-.left.card {
-  background-color: lightblue;
-  height: 25%;
-  width: 25%;
+.left {
   float: left;
 }
 
-/* This applies only to the element with both the right and card classes */
-.right.card {
-  background-color: yellow;
-  height: 25%;
-  width:25%;
+.right {
   float: right;
 }
 
+.creative {
+  color: midnightblue;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
