@@ -24,14 +24,29 @@
 Select all the elements that are the direct
 children of the .container class.
     */
+/* So rewrite this this code below replace it with a universal selector. */
 
-    .red {background-color: #eb4d4b; flex-basis: 100px;}
+    /* .red {background-color: #eb4d4b; flex-basis: 100px;}
     .orange {background-color: #f0932b; flex-basis: 100px;}
     .yellow {background-color: #f6e58d; flex-basis: 100px;}
     .green {background-color: #6ab04c; flex-basis: 100px;}
     .blue {background-color: #4834d4; flex-basis: 100px;}
     .indigo {background-color: #30336b; flex-basis: 100px;}
-    .purple {background-color: #be2edd; flex-basis: 100px;}
+    .purple {background-color: #be2edd; flex-basis: 100px;} */
+
+    .container > * {
+      flex-basis: 100px;
+    
+    }
+
+    
+    .red {background-color: #eb4d4b;}
+    .orange {background-color: #f0932b;}
+    .yellow {background-color: #f6e58d;}
+    .green {background-color: #6ab04c;}
+    .blue {background-color: #4834d4;}
+    .indigo {background-color: #30336b;}
+    .purple {background-color: #be2edd;}
   </style>
 </head>
 
