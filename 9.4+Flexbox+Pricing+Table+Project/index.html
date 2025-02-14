@@ -22,8 +22,7 @@
       gap: 2rem;
     }
 
-      .pricing-plan {
-      flex: 1;  
+      .pricing-plan { 
       background: lightgray;
       border: 30px solid white;
       border-radius: 45px;
@@ -36,10 +35,6 @@
         color: white;
         padding: 10px;
         border-radius: 10px;
-      }
-
-      .pricing-container {
-        flex-wrap: wrap;
       }
 
       .plan-title {
@@ -55,6 +50,10 @@
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
+        .pricing-container{
+          flex-direction: column;
+          height: 100px;
+        }
       }
     </style>
   </head>
