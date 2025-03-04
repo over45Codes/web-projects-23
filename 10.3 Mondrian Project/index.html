@@ -19,6 +19,86 @@
     HINT: Remember you can't change the properties of grid lines.
     But grid lines are transparent!
     */
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+}
+
+
+.grid-container {
+    height: 748px;
+    width: 748px;
+    display: grid;
+    grid-template-columns: 320px 198px 153px 50px;
+    /* notes: column sizes: figured out fixed sizes go here in the grid-template-column-  */
+    grid-template-rows: 414px 130px 155px 20px;
+    /* notes: row fixed sizes go here in the grid-template-row  */
+    gap: 9px;
+    background-color: #000;
+
+}
+
+.one {
+    background-color: #E72F24;
+}
+
+.two {
+    background-color:#F0F1EC;
+    grid-column: span 3;
+    /* notes: this white block needs to span 3 columns */
+}
+
+.three {
+    background-color:#F0F1EC;
+    grid-row: span 2;
+    /* notes: this white block needs to span 2 rows down (vertically) */
+}
+
+.four {
+    background-color:#F0F1EC;
+    grid-area: 2 / 2 / 4 / 4;
+     /* notes: this fourth white block: 
+     Applying that to `grid-area: 2 / 2 / 4 / 4;`:
+    - **row-start (2)** → The element starts at row **line 2**.
+    - **column-start (2)** → The element starts at column **line 2**.
+    - **row-end (4)** → The element **ends at row line 4**.
+    - **column-end (4)** → The element **ends at column line 4**.
+
+    ### **What Does This Mean?**
+
+    - The element `.four` will **start at row 2, column 2**.
+    - It will **span across two rows** (row 2 to row 4).
+    - It will **span across two columns** (column 2 to column 4).
+    - This means it will **occupy a 2x2 grid area** in the layout. */
+}
+
+.five {
+    background-color: blue;
+    /* grid-area: 2 / 2 / 3; */
+}
+
+.six {
+    background-color: #F0F1EC;
+} 
+
+.seven {
+    background-color: #F0F1EC;
+}
+
+.eight {
+    background-color: #F9D01E;
+}
+
+.nine {
+    background-color: #232629;
+    color: #F0F1EC;
+}
+
+
   </style>
 </head>
 
